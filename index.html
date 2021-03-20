@@ -1,0 +1,141 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Website</title>
+            <link rel="stylesheet" href="../css/style.css">
+            <link rel="stylesheet" href="../css/resp.css">
+            
+       <!-- pdf -->
+      <script>
+         
+function passval()
+{
+    var firstname=document.getElementById("Tbone").value;
+    localStorage.setItem("namevalue",firstname);
+    return false;
+}
+      </script>
+        
+        </head>
+        <body>
+           
+               
+                
+             <div id="navbar">
+             
+                 <li class="d"> <a href="#"><img src="../img/home3.png" class="img1" alt="" srcset=""></a>
+                 </li>             
+                  <li><a href="#about">About us</a></li>
+                  <li><a href="#spon">Sponser</a></li>
+                
+                  <li><a href="#con">Invoice</a></li>
+                  <div class="rightnav">
+                    <div class="heading "><h1 style="color: rgb(255, 255, 255);">NewGenInvoice</h1></div> 
+                  </div>
+
+              </ul>
+              <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+            
+                <div class="line"></div>
+            
+            </div>
+                  
+             </div>
+            
+                
+                     <img src="../img/sky.png" class="img2" alt="" srcset="">
+                     <section class="container">
+                        <div class="paras" id="about">
+                       
+                            <div class="row2 slide">
+                                <div class="col3"> <p class="text-big">NewGenInvoice<br><br>
+                                    <p class="secionSubTag text-small">
+                                    <h2 style="color: orange;"> Welcome to NewGenInvoice!!</h2> <br>
+                                    <div class="desc"> We are here to serve you the best compatible tax invoices<br><br></div>
+
+                                    <div class="desc"><h2 style="color: orange;"> How to use?</h2><br></div>
+                                   <div class="desc">  Go through the following steps & get your Tax invoice Ready in few seconds.<br><br></div>
+                                       
+                                    <div class="desc"> 1) Click on the invoice tab on the navbar <br></div>
+
+                                   <div class="desc">  2) In the given form fill the required details<br> </div>
+
+                                   <div class="desc">  3) click on the "Generate Invoice" button <br></div>
+
+                                   <div class="desc">  4) You will be redirect to new tab. Here you will<br></div>
+                                           
+                                   <div class="desc">  get your invoice Ready<br></div>
+
+                                  <div class="desc">   5) click on "Donwload Now" to download the pdf of invoice<br></div>
+                            
+
+
+                            
+                                  
+                                </div>
+                                <div class="col4">
+                              
+                                </div>
+                               
+                            </div>
+                            <div id="coll">
+                                <p class="secionSubTag text-small">
+                                Hello Guys! Team Eagle is the new team formed by Sohail. We all are first year Engineering students from different
+                                branches. We all got connected through our first competetive coding tournament HACKATHON.... A hackathon (also known as a hack day, 
+                                hackfest, datathon or codefest; a portmanteau of hacking marathon) is a design sprint-like event; often, in which computer
+                                 programmers and others involved in software development, including graphic designers,
+                                 interface designers, project managers, domain experts, and others collaborate intensively on software projects.
+                                The goal of a hackathon is to create functioning software or hardware by the end of the event.[1] Hackathons tend to have a 
+                                specific focus, which can include the programming language used, the operating system, an application, an API, or the subject
+                                 and the demographic group of the programmers. In other cases, there is no restriction on the type of software being created.
+                    </p>
+                            </div>
+                      
+                     </section>
+                     
+               
+                 <section class="contact" id="con">
+                    <h2 class="text-center" >INVOICE</h2>
+                    <div class="form">
+                        <form action="pdf.html">
+                            <input type="text" class="form-input" name="name" id="Tbone" placeholder="Enter your Name">
+                            <input type="text" class="form-input" name="phone" id="depA" placeholder="Departure Airport">
+                            <input type="email" class="form-input" name="email" id="email" placeholder="Destination Airport">
+                          <input type="text" class="form-input" name="invoicedate" id="invdte" placeholder="date">
+                          <input type="text" class="form-input" name="invoicevalue" id="ttlval" placeholder="Total Value">
+                         <button class="button btn-sb" onclick="passval()">Generate Invoice</button>
+                         </div>
+                        </form>
+                     
+                    </section>
+           
+           
+                    <div class="sponser" id="spon"><span>Sponsers</span>
+                        <div class="rowl">
+                            <div class="col1">
+                                <img src="../img/team1.png" class="spn" alt="" srcset="">
+                            </div>
+                            <div class="col1">
+                                <img src="../img/godrej.png" class="spn" alt="" srcset="">
+                            </div>
+                            <div class="col1">
+                                <img src="../img/coca.png" class="spn coca" alt="" srcset="">
+                            </div>
+                            <div class="col1">
+                                <img src="../img/face2.png" class="spn face" alt="" srcset="">
+                            </div>
+                    
+                        </div>
+                    </div>
+                    <footer class="foot">
+                        <p class="text-footer">
+                        Copyright &copy; 2020 Team Eagle - All rights reserved by Team Eagle</p>
+                    </footer>
+                    
+            
+        </body>
+        </html>
